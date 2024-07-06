@@ -11,7 +11,7 @@ require('dotenv').config();
 
 const app = express();
 
-const WS_PORT = process.env.WS_PORT || 80;
+const WS_PORT = process.env.WS_PORT || 443;
 const HTTP_PORT = process.env.HTTP_PORT || 8000;
 
 // Configure AWS with environment variables
